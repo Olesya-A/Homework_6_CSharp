@@ -24,16 +24,3 @@ void GetCrossPoint(double b1, double k1, double b2, double k2)
         Console.WriteLine($"({x}; {y})");
     }
 }
-
-
-// Console.Write("Введите значения b1, k1, b2, k2 через пробел: ");
-// string input = Console.ReadLine()!;
-// string[] numbers = input.Split(' ');
-// double b1 = double.Parse(numbers[0]);
-// double k1 = double.Parse(numbers[1]);
-// double b2 = double.Parse(numbers[2]);
-// double k2 = double.Parse(numbers[3]);
-
-// double x = (b2 - b1) / (k1 - k2);
-// double y = k1 * x + b1;
-// Console.WriteLine($"({x}; {y})");
