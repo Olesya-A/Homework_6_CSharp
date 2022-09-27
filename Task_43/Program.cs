@@ -24,6 +24,6 @@ void GetCrossPoint(double b1, double k1, double b2, double k2)
     {
         double x = (b2 - b1) / (k1 - k2);
         double y = k1 * x + b1;
-        Console.WriteLine($"({x}; {y})");
+        Console.WriteLine($"({x:F2}; {y:F2})"); // F2  - округление до двух знаков или Math.Round(x, 3)
     }
 }
