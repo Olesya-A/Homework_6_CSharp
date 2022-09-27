@@ -4,9 +4,9 @@
 
 Console.Write("Введите целые числа через пробел: ");
 string input = Console.ReadLine()!;
-string[] numbers = input.Split(' ');
-int[] nums = GetArrayOfNumbers(numbers);
-Console.WriteLine(CountPositives(nums));
+string[] array = input.Split(' ');
+int[] numbers = GetArrayOfNumbers(array);
+Console.WriteLine(CountPositives(numbers));
 
 int[] GetArrayOfNumbers(string[] array)
 {
