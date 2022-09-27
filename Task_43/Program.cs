@@ -16,7 +16,10 @@ GetCrossPoint(b1, k1, b2, k2);
 
 void GetCrossPoint(double b1, double k1, double b2, double k2)
 {
-    if (k1 == k2) Console.WriteLine("Две прямые параллельны");
+    if (k1 == k2 && b1 == b2)
+        Console.WriteLine("Две прямые совпадают");
+    else if (k1 == k2)
+        Console.WriteLine("Две прямые параллельны");
     else
     {
         double x = (b2 - b1) / (k1 - k2);
